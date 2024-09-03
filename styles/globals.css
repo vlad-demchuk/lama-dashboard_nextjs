@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+body {}
+
+@layer utilities {
+  .icon {
+    @apply bg-white rounded-full w-7 h-7 flex justify-center items-center cursor-pointer
+  }
+}
